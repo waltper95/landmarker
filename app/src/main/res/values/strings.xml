@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LandMarker</string>
+    <string name="texto_login"><i>¿Eres nuevo? <u>Registrate ya!</u></i></string>
+    <string name="titulo_registro">¡Registrate!</string>
+    <string name="boton_menu">Menu</string>
+    <string name="separator">_______ or sign in with _______</string>
+    <string name="facebook_app_id">1700056240314406</string>
+</resources>
