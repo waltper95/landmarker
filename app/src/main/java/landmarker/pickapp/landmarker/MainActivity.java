@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-       /* if(AccessToken.getCurrentAccessToken() == null){
+        setContentView(R.layout.activity_main);
+        if(AccessToken.getCurrentAccessToken() == null){
             goLoginScreen();
-        }*/
+        }
     }
-/*
+
     public void goLoginScreen(){
         Intent intent = new Intent(this,LoginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -29,5 +29,4 @@ public class MainActivity extends AppCompatActivity {
         LoginManager.getInstance().logOut();
         goLoginScreen();
     }
-*/
 }
